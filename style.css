@@ -1,3 +1,283 @@
-body {
-    background: blue;
-  }
+        body {
+            font-family: 'Fjalla One', sans-serif;
+            line-height: 3;
+            margin: 0;
+            text-align: center;
+            background-color: #FFFDF9;
+        }
+        
+        @media (max-width: 420px) {
+            body {
+                line-height: 1.5;
+            }
+            h1 {
+                font-size: 25%;
+            }
+            hr {
+                margin: 0.5em auto;
+            }
+            .span-heading-letters {
+                font-size: small;
+            }
+        }
+        
+        h1 {
+            font-size: 500%;
+            margin: 0;
+        }
+        
+        hr {
+            border: dotted #BEEBE9 5px;
+            border-bottom: none;
+            margin: 10em auto;
+            min-width: 50%;
+        }
+        
+        .Page-header {
+            font-family: 'Great Vibes', cursive;
+        }
+        
+        .span-heading-letters {
+            font-size: 135%;
+        }
+        
+        .nav-img {
+            background-color: #FFFDF9;
+            border-radius: 45%;
+            margin-right: 50em;
+            vertical-align: middle;
+            max-width: 4em;
+            max-height: 4em;
+        }
+        
+        nav {
+            background-color: #BEEBE9;
+            padding: 3em;
+            text-align: right;
+        }
+        
+        nav a {
+            color: #71c2bd;
+            font-size: x-large;
+            margin: 0 3em;
+        }
+        
+        nav a:hover {
+            background-color: #FFE3ED;
+        }
+        
+        .top-container {
+            background-color: #BEEBE9;
+            line-height: 1.5;
+        }
+        
+        .profile {
+            display: inline-block;
+            line-height: 2;
+            margin: 3em auto;
+            text-align: center;
+            min-width: 50%;
+        }
+        
+        .middle-container {
+            background-color: #FFFDF9;
+            margin: 3%;
+        }
+        
+        .right-cloud {
+            margin-top: 3%;
+            position: absolute;
+            right: 20%;
+            max-width: 12%;
+        }
+        
+        .left-cloud {
+            left: 22%;
+            margin-top: -10%;
+            max-width: 12%;
+            position: absolute;
+        }
+        
+        .bike-img {
+            max-width: 25%;
+            max-height: 10%;
+        }
+        /* Extra css*/
+        
+        #profilePic {
+            border-radius: 50%;
+            margin: 3em auto;
+            width: 25%;
+        }
+        
+        .skill-row {
+            display: inline-block;
+            line-height: 3;
+            margin: 3em auto;
+            text-align: left;
+            width: 50%;
+        }
+        
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 2px solid #9BE3DE;
+        }
+        
+        th {
+            border: 2px solid #9BE3DE;
+            font-size: larger;
+            text-align: center;
+        }
+        
+        td {
+            font-size: larger;
+            text-align: justify;
+        }
+        
+        a {
+            color: black;
+            margin: 0.5em;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+        
+        .leveltable-box {
+            width: 35%;
+        }
+        
+        .skill-icon {
+            width: 15%;
+        }
+        
+        .paragraph-wth3 {
+            width: 90%;
+        }
+        
+        .laptop-ProjectImg {
+            background-color: #9BE3DE;
+            border-radius: 45%;
+            float: left;
+            margin: 2%;
+            width: 25%;
+        }
+        
+        .girl-myresume {
+            background-color: #FFE3ED;
+            border-radius: 45%;
+            float: right;
+            margin: 2%;
+            width: 25%;
+        }
+        
+        .contact-me {
+            display: inline-block;
+            line-height: 2;
+        }
+        
+        .contactme-button {
+            background-color: #BEEBE9;
+            border: #9BE3DE solid;
+            border-radius: 10%;
+            font-family: 'Fjalla One', sans-serif;
+            font-weight: bolder;
+            font-size: 1em;
+            width: 6%;
+        }
+        
+        a :hover {
+            background-color: #FFE3ED;
+        }
+        
+        .emailbutton-icon {
+            float: left;
+            margin-right: .5%;
+            max-width: 20%;
+        }
+        
+        .bottom-container {
+            background-color: #9BE3DE;
+            line-height: 0;
+            padding: 15px;
+        }
+        
+        .footericon {
+            max-width: 2%;
+            margin: 1%;
+        }
+        
+        .copy-right {
+            color: white;
+            font-size: smaller;
+        }
+        /*Projects Page*/
+        
+        .left-pen {
+            margin: 0 1%;
+            padding-top: 10%;
+            width: 4.15%;
+        }
+        
+        .right-pencil {
+            margin: 0 1%;
+            padding-top: 10%;
+            width: 4%;
+        }
+        
+        .header-runnerimg {
+            width: 7%;
+            margin: 0 7%;
+            opacity: 20%;
+        }
+        
+        .programming-container {
+            margin: 0 auto;
+            padding-top: 10%;
+            width: 50%;
+        }
+        
+        .folderimg {
+            background-color: #FFE3ED;
+            border-radius: 45%;
+            float: left;
+            width: 25%;
+        }
+        
+        .arrowimg {
+            border-radius: 45%;
+            float: left;
+            margin: 0 10%;
+            width: 25%;
+            opacity: 80%;
+        }
+        
+        .programimg {
+            float: right;
+            margin: 2%;
+            width: 25%;
+            opacity: 60%;
+        }
+        
+        .projects-table {
+            color: #71c2bd;
+            display: inline-block;
+            width: 50%;
+        }
+        
+        .projects-table tr td {
+            text-align: center;
+        }
+        
+        .skill-row2 {
+            display: inline-block;
+            margin: 3em auto;
+            width: 50%;
+            text-align: center;
+        }
+        
+        .project-ws-img {
+            border-radius: 2%;
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+        }
