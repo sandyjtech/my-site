@@ -1,14 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandra Jimenez</title>
+
+    <!--title icon-->
+    <link rel="icon" href="Media/favicon2.ico">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+    <!-- bootstrap styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/fd4ae1abe6.js" crossorigin="anonymous"></script>
+
+    <!--Boottap collapse button script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </head>
 
 <body>
+            
+    <div class="container top-container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar" id="navbarTogglerDemo01">
+        
+            <img src="Media/emoji-me.png" class="nav-img">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">About Me</a></li>
+               <li class="nav-item"><a href="Projects.html" class="nav-link">Projects</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            </ul>        
+    </div>
+    </nav>
+    </div>
+ 
+    <div class="top-container">
+        <img src="Media/pink clouds.png" class="right-cloud">
+        <h1 class="Page-header"><span class="span-heading-letters">C</span>ontact me</h1>
+      
+        <img src="Media/pink clouds.png" class="left-cloud"><br>
+       
+    </div>
+    <!-- Contact Form -->
+
+    <section class="form-section2 white-section" id="features2">
+
+        <div class="col-lg-12">
+            <div class="heading-title"> Get in touch with me</div>
+        </div>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="contact-box">
+
+                        <ul class="list-inline">
+                            <li>
+                                <div class="contact">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <p> Fresno, CA </p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact">
+                                    <a href="mailto:sandyjtech@gmail.com" target="_blank">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                </a>
+                            </li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-box-inner">
+                        <form action="https://formsubmit.co/sandyjtech@gmail.com" method="POST">
+                            <input type="hidden" name="_template" value="box">
+                            <input type="hidden" name="_next" value="https://sandyjime21.github.io/ThankYou-Page/">
+                            <input type="hidden" name="_autoresponse" value="Thank you so much for you message. I will get back to you as soon as possible.">
+                            <div class="form-group">
+                                <input type="text" class="form-control" for="" name="name" value="" placeholder="Your name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" for="" name="email" value="" placeholder="Email Address" _replyto>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" for="" name="Phone-Number" value="" placeholder="Your number">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" cols="50" class="form-control" placeholder="Comments here..." name="Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn custom-button"> Submit </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="map-box">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.5455919263404!2d-119.84860868255613!3d36.805444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809466309949b85f%3A0xcad760430fdc228e!2s3089%20W%20Alamos%20Ave%2C%20Fresno%2C%20CA%2093722!5e0!3m2!1sen!2sus!4v1658764445149!5m2!1sen!2sus"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+
+    <div class="bottom-container">
+        <a href="https://www.linkedin.com/in/sandra-jimenez-949a31204/ " target="_blank " id="linked">
+            <img src="Media/LinkIn.png" alt="LinkedIn" class="footericon" title="My LinkedIn Page"></a>
+        <a href="https://github.com/SandyJime21 " target="_blank" id="git">
+            <img src="Media/github.png" alt="GitHub" class="footericon" title="My GitHub Page"></a>
+        <a href="https://www.instagram.com/sandy_cake21 " target="_blank" id="insta">
+            <img src="Media/instagram.png" alt="Instagram" class="footericon" title="My Instagram Page"></a>
+
+        <p class="copy-right">© Sandra Jimenez. All rights reserved.</p>
+    </div>
+
 
 </body>
 

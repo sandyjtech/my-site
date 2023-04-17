@@ -52,18 +52,20 @@
         
         nav {
             background-color: #BEEBE9;
-            padding: 3em;
+            
             text-align: right;
+            
         }
         
-        nav a {
+       .nav-item {
             color: #71c2bd;
             font-size: x-large;
-            margin: 0 3em;
+          
         }
         
         nav a:hover {
             background-color: #FFE3ED;
+            border-radius: 45%;
         }
         
         .top-container {
@@ -169,20 +171,32 @@
             margin: 2%;
             width: 25%;
         }
-        
+        .container {
+            position: relative;
+            left: 0;
+            margin-right:0;
+           min-width: 100%;
+        }
         .contact-me {
             display: inline-block;
             line-height: 2;
         }
         
         .contactme-button {
-            background-color: #BEEBE9;
-            border: #9BE3DE solid;
-            border-radius: 10%;
+            background: #bfd9d8;
+            background-image: -webkit-linear-gradient(top, #bfd9d8, #BEEBE9);
+            background-image: -moz-linear-gradient(top, #bfd9d8, #BEEBE9);
+            background-image: -ms-linear-gradient(top, #bfd9d8, #BEEBE9);
+            background-image: -o-linear-gradient(top, #bfd9d8, #BEEBE9);
+            background-image: linear-gradient(to bottom, #bfd9d8, #BEEBE9);
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 28px;
+            text-decoration: none;
             font-family: 'Fjalla One', sans-serif;
             font-weight: bolder;
             font-size: 1em;
-            width: 6%;
+            width: 1%;
         }
         
         a :hover {
@@ -281,3 +295,94 @@
             display: block;
             width: 100%;
         }
+           /* Contact */
+        
+           .overlay {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .custom-button {
+            width: 100%;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: 0.8s ease;
+            background: #463333;
+            background: -webkit-linear-gradient(to right, #FFF0F0, #463333);
+            background: linear-gradient(to right, #835858, #EBD4D4);
+        }
+        
+        .custom-button:hover,
+        .custom-button:focus {
+            transition: 0.8s ease;
+            letter-spacing: 3px;
+            background-color: #101010;
+        }
+        
+        .form-box-inner .form-control {
+            background: #ffffff8a;
+            border: 2px solid #000000;
+            box-shadow: none;
+        }
+        
+        .form-box-inner .form-control:focus {
+            outline: none;
+            box-shadow: none;
+        }
+        
+        .map-box iframe {
+            width: 100%;
+            height: 357px;
+        }
+        
+        .map-box {
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        .heading-title {
+            margin-right: 0.1%;
+            padding: 60px;
+            font-size: 35px;
+        }
+        
+        .contact {
+            text-align: center;
+        }
+        
+        .contact-box {
+            background: #ffffff8a;
+            height: 365px;
+            padding: 15px;
+        }
+        
+        .contact-box ul li {
+            margin-bottom: 0px;
+            padding: 8px;
+        }
+        
+        .contact i {
+            font-size: 25px;
+            color: #835858;
+        }
+        
+        .form-box-inner {
+            background: #ffffff8a;
+            padding: 15px;
+        }
+
+        .heading-title {
+         text-align: center;
+        }
+.btn {
+    color: #101010;
+    background:  #ffffff8a;
+  background-image: -webkit-linear-gradient(top,  #ffffff8a,  #71c2bd);
+  background-image: -moz-linear-gradient(top,  #ffffff8a,  #71c2bd);
+  background-image: -ms-linear-gradient(top,  #ffffff8a,  #71c2bd);
+  background-image: -o-linear-gradient(top,  #ffffff8a,  #71c2bd);
+  background-image: linear-gradient(to bottom,  #ffffff8a,  #71c2bd);
+}
